@@ -65,13 +65,9 @@ div {
     margin-top: 17px;
 }
 
-  .stories .text-content {
-      height: 250px;
-      flex-direction: row;
-
-  }
-
-
+.stories .text-content {
+    height: 250px;
+}
 
 
 .column {
