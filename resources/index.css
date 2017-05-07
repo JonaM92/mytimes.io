@@ -37,3 +37,53 @@ header {
 header nav {
     padding-right: 40px;
 }
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
+
+.lead .leadimage {
+    background-image: url(./images/main.png);
+    width: 630px;
+    margin-top: 0;
+    font-size: 40px;
+    text-align: left;
+}
+
+.leadimage {
+    height: 300px;
+    margin-top: 15px;
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+
+}
+
+p {
+  display: block;
+}
+
+.stories {
+    display: flex;
+    width: 1232px;
+    margin: 0 auto 78px auto;
+    padding-top: 116px;
+}
+
+div {
+    border: 1px solid black;
+}
+
+.fall {
+    background-image: url(./images/fall.png);
+}
