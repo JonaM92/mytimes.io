@@ -38,6 +38,24 @@ header nav {
     padding-right: 40px;
 }
 
+div {
+    border: 1px solid black;
+    display: block;
+}
+
+.content {
+    display: flex;
+    width: 1232px;
+    margin: 0 auto 78px auto;
+    padding-top: 116px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    margin-right: 32px;
+}
+
 .column.large {
   width: 630px;
 }
@@ -50,40 +68,38 @@ header nav {
   width: 240px;
 }
 
-.lead .leadimage {
-    background-image: url(./images/main.png);
-    width: 630px;
-    margin-top: 0;
-    font-size: 40px;
-    text-align: left;
+p {
+  display: block;
 }
 
-.leadimage {
-    height: 300px;
+p .info {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.image-text {
     margin-top: 15px;
     font-family: Georgia;
     font-weight: bold;
     font-size: 30px;
     color: white;
     text-align: center;
-
-}
-
-p {
-  display: block;
-}
-
-.stories {
     display: flex;
-    width: 1232px;
-    margin: 0 auto 78px auto;
-    padding-top: 116px;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
 }
 
-div {
-    border: 1px solid black;
+
+.lead .image-text {
+  background-image: url(./images/main.png);
+  width: 630px;
+  margin-top: 0;
+  font-size: 40px;
+  text-align: left;
 }
 
-.fall {
-    background-image: url(./images/fall.png);
+.fall .image-text {
+  background-image: url(./images/fall.png);
 }
